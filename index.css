@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+   min-height: 100vh;
+   width:100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/hero-cover.3.png);
+   background-position: center;
+   background-size: cover;
+   position:relative;
+
+}
+
+.brand_name{
+
+   color: rgb(254,254,254);
+   text-decoration: none;
+
+
+}
+.button{
+    background-color: rgb(35,166,240);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+.fa-arrow-right{
+    color:beige;
+}
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display:inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+
+}
+.nav-links ul li a{
+   color: rgb(254,254,254);
+   text-decoration: none;
+   font-size: 13px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+.nav-links ul li:hover::after{
+    width:100%;
+
+}
+.text-box{
+  width:90% ;
+  color:beige;
+  position: absolute;
+  top: 50%;
+  left:0%;
+  transform: translate(-50%,-5);
+  text-align:center;
+}
+
+.text-box h1{
+
+    font-size:62px;
+}
+.text-box p{
+     margin: 10px 0 40px;
+     font-size: 14px;
+     color:white;
+
+}
+.button1{
+
+    color:beige;
+    background-color: rgb(35,166,240);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 9px;
+   
+   
+}
+.button2{
+     color:beige;
+    background-color: rgb(35,166,240);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 9px;
+    margin-left: 20pt;
+    
+   
+}
+.flex{
+
+    display: flex;
+    margin-left:40% ;
+}
