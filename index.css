@@ -275,7 +275,7 @@ background-color: rgb(250,250,250);
 .testimonial-col{
     display: flex;
    flex-direction: column;
-   padding-left: 14%;
+   padding-left: 20%;
    padding-bottom: 300px;
 
     
@@ -284,9 +284,9 @@ background-color: rgb(250,250,250);
 }
 .testimonial-col img{
 
- height: 100px;
- width: 100px;
- padding-left: 20px;
+ height: 130px;
+ width: 130px;
+ padding-left: px;
  
 
 
@@ -317,9 +317,9 @@ display: flex;
 justify-content: center;
 padding-bottom: 10px;
 background: linear-gradient(to right,  rgb(4,69,136), rgb(204,66,136));
-margin-left: 10%;
-margin-right: 10%;
-margin-bottom: 30%;
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 10%;
 }
 .text_box p{
 
@@ -353,7 +353,7 @@ margin-bottom: 30%;
 }
 .pricing{
    text-align: center;
-   padding-bottom: 200px;
+   padding-bottom: 150px;
 
 
 }
@@ -361,4 +361,69 @@ margin-bottom: 30%;
 
  color:rgb(129, 126, 126);
 
+}
+.three{
+ display: flex;
+ padding-bottom: 10%;
+ box-sizing: border-box;
+ padding-left: 10%;
+
+
+}
+.Free{
+
+ padding-left: 3%;
+ border: 2px solid blue;
+ margin-left: 20%;
+ padding-bottom: 5%;
+ padding-top: 3%;
+ margin-top: 20px;
+ border-radius: 10px;
+
+}
+.Standard{
+
+ padding-left: 3%;
+ border: 2px solid blue;
+ margin-left: 0%;
+padding-bottom: 5%;
+padding-top: 3%;
+margin-top: 0px;
+border-radius: 10px;
+background-color: rgb(37,43,66);
+color: rgb(250,250,250);
+
+}
+.Premium{
+
+ padding-left: 3%;
+ border: 2px solid blue;
+ margin-left: 0%;
+ padding-bottom: 5%;
+ padding-top: 3%;
+ margin-top: 20px;
+ border-radius: 10px;
+
+}
+.mapbranch{
+
+    display:flex;
+    padding-bottom: 200px;
+    background-color: rgb(37,43,66);
+    margin-left: 20px;
+
+}
+.branches{
+    padding-left: 80px;
+    padding-top: 120px;
+    color:rgb(250,250,250)
+    
+
+}
+.map img{
+    height: 200px;
+    padding-left: 50%;
+    padding-top: 100px;
+   
+   
 }
