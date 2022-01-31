@@ -148,6 +148,25 @@ align-items: center;
 
 
   }
+  .section2{
+      display:block;
+      max-width: 600px;
+      flex-wrap: wrap;
+    
+    }
+    .section2 >div:first-child{
+        text-align: center;
+    }
+
+  .column2{
+      
+      padding:1%;
+     background-color: rgb(255,255,255);
+   
+    
+   
+   }
+
 }
     
 #boxes{
@@ -198,6 +217,7 @@ align-items: center;
     box-sizing: border-box;
     position: relative;
     padding-bottom: 20%;
+   margin-top: -20%;
     
 
 
