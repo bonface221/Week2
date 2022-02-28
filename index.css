@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 
-.header {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("./hero-cover.3.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+.header{
+   min-height: 100vh;
+   width:100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("./hero-cover.3.png");
+   background-position: center;
+   background-size: cover;
+   position:relative;
+
 
 }
 
@@ -80,15 +81,16 @@ nav {
 
 }
 
-.text-box {
-    width: 90%;
-    color: beige;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -5);
-    text-align: center;
-    margin-left: 10%;
+.text-box{
+  width:90% ;
+  color:beige;
+  position: absolute;
+  top: 50%;
+  left:0%;
+  transform: translate(-50%,-5);
+  text-align:center;
+  margin-left: 10%;
+
 }
 
 .text-box h1 {
@@ -211,21 +213,22 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    
     position: relative;
-    bottom: 80px;
+    bottom:80px;
     padding-bottom: 3%;
+    
 
-
-
-
-
+    
+    
+    
 }
+.peace{
+    padding:6%;
+    background-color: rgb(255,255,255);
+    margin:10px;
+    border:2px  solid gray;
 
-.peace {
-    padding: 6%;
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-    border: 2px solid gray;
     margin-left: 9%;
     box-sizing: border-box;
 
@@ -250,53 +253,54 @@ nav {
     box-sizing: border-box;
 }
 
-.section2 {
-
-    display: flex;
+.section2{
+    
+    display:flex ;
     justify-content: center;
-
-
+    
+    
     padding-bottom: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
-
-
+   
+    
 
 
 }
-
-.threee .increase_size {
+.three .increase_size{
     width: 130px;
     height: 100px;
 }
-
-.threee {
+.three{
     display: flex;
     flex-direction: column;
     padding-top: 1%;
-    padding-left: 60px;
-
+     padding-left: 60px;
+    
 }
-
-.twoo {
+.twoo{
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+     padding-left: 60px;
 }
+.onee{
 
-.onee {
     display: flex;
     flex-direction: column;
 }
 
 
-.column2 {
-    align-items: center;
-    background-color: rgb(255, 255, 255);
 
-
+.column2{
+   align-items:center;
+    background-color: rgb(255,255,255);
+   
+    
 
 }
+
+.testimonials{
+
 
 .testimonials {
 
